@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    color: rgb(255, 85, 20);
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    margin-bottom: 0px;
+    position: absolute;
+    margin-left: 3vw;
+    text-shadow: 0 4px 5px red;
+    text-decoration: underline;
+}
+
+#text-1 {
+    margin-top: 0;
+    font-weight: lighter;
+    font-size: 50%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 20px;
+    padding-top: 2px;
+}
+
+.header {
+    background: linear-gradient(to right, black, black, grey, black, black, grey, black, black);
+    height: 160px;
+    border-left: 1.8px red solid;
+    position: relative;
+    border-right: 1.8px red solid;
+    clip-path: polygon(2% 0, 98% 0, 100% 14%, 100% 86%, 98% 100%, 2% 100%, 0% 86%, 0% 14%)
+}
+
+.link ul {
+    position: relative;
+    top: 127px;
+    list-style: none;
+    float: right;
+    margin-right: 2vw;
+}
+
+#nav_links li {
+    float: left;
+    margin-right: 0.3vw;
+    margin-bottom: 2px;
+}
+
+.btn:link,
+.btn:visited {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.1s;
+    font-weight: bold;
+    z-index: 4;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+
+.btn-link {
+    background: linear-gradient( to right, rgb(255, 112, 0), rgb(255, 85, 20), rgb(255, 69, 38), rgb(255, 40, 73));
+    color: white;
+    font-weight: bold;
+    padding: 0.3vh 0.4vw;
+    border-radius: 10px;
+    border-right: 2px red inset;
+    border-left: 2px white inset;
+}
+
+.btn-link:hover {
+    box-shadow: 5px 10px 20px rgba(218, 0, 0, 0.8);
+}
+
+.break {
+    clear: both;
+}
+
+.home {
+    border-top: 2px black solid;
+    position: absolute;
+    border-top-left-radius: 10.5%;
+    height: 500px;
+    width: 24vw;
+    background: linear-gradient(to right top, rgb(255, 112, 0), rgb(255, 85, 20), rgb(255, 69, 38), rgb(255, 40, 73))
+}
+
+.home img {
+    width: 18vw;
+    position: relative;
+    top: 40px;
+    left: 4vw;
+    transform: translateY(30%);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 3%;
+    border: 4px rgba(128, 128, 128, 0.8) outset;
+}
+
+#intro {
+    width: 65vw;
+    height: 500px;
+    position: absolute;
+    left: 28vw;
+    border-top: 2px orangered solid;
+    background-color: black;
+    color: orangered;
+    border-right: 2px orangered inset;
+    border-top-right-radius: 10.5%;
+    border-left: 2px orangered inset;
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    left: 32vw;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+    width: 40vw;
+    padding: 1vw;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 2px silver solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    background: linear-gradient(to right top, rgb(255, 112, 0), rgb(255, 85, 20), rgb(255, 69, 38), rgb(255, 40, 73))
+}
+
+.educ {
+    list-style: none;
+}
+
+.main {
+    text-decoration: underline;
+}
+
+.text-2 {
+    font-size: 75%;
+    text-align: left;
+}
+
+.icons {
+    height: 8vw;
+    width: 8vw;
+    border-radius: 25%;
+    margin-right: 3vw;
+}
+
+@media only screen and (max-width: 572px) {
+    body {
+        font-size: 10px;
+    }
+    .home img {
+        width: 33vw;
+        position: relative;
+        top: 30px;
+        left: 4vw;
+    }
+    .link ul {
+        position: relative;
+        top: 80px;
+        list-style: none;
+        float: right;
+        margin-right: 0vw;
+    }
+    .home {
+        width: 40vw;
+    }
+    .header {
+        height: 130px;
+        clip-path: polygon(2% 0, 98% 0, 100% 14%, 100% 86%, 98% 100%, 2% 100%, 0% 86%, 0% 14%)
+    }
+    #intro {
+        width: 45vw;
+        left: 48vw;
+    }
+    .text {
+        text-align: center;
+        align-items: center;
+        position: absolute;
+        left: 22.5vw;
+        width: 35vw;
+        padding-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        background: linear-gradient(to right top, rgb(255, 112, 0), rgb(255, 85, 20), rgb(255, 69, 38), rgb(255, 40, 73))
+    }
+    h1 {
+        color: rgb(255, 85, 20);
+        font-family: "Great Vibes", cursive;
+        font-size: 22px;
+        margin-bottom: 0px;
+        position: absolute;
+        margin-left: 3vw;
+        text-shadow: 0 4px 5px red;
+        text-decoration: underline;
+    }
+    .icons {
+        height: 16vw;
+        width: 16vw;
+        margin-bottom: 10px;
+    }
+}
