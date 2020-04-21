@@ -165,7 +165,7 @@ body {
     margin-right: 3vw;
 }
 
-@media only screen and (max-width: 572px) {
+@media only screen and (max-width: 970px) {
     body {
         font-size: 10px;
     }
@@ -184,6 +184,7 @@ body {
     }
     .home {
         width: 40vw;
+        height:600px;
     }
     .header {
         height: 130px;
@@ -192,6 +193,7 @@ body {
     #intro {
         width: 45vw;
         left: 48vw;
+        height:600px;
     }
     .text {
         text-align: center;
